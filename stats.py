@@ -23,7 +23,8 @@ def dict_to_sort_list(char_count_dict: dict) ->list:
 
 def dis_clean_data(dict_to_list: list):
     for char_data in dict_to_list:
-        print(f'{char_data["character"]}: {char_data["count"]}')
+        if char_data["character"].isalpha():
+         print(f'{char_data["character"]}: {char_data["count"]}')
     return None    
 
 
