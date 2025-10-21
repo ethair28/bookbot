@@ -1,1 +1,9 @@
+#data
 /books
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environment files
+.venv/
+venv/
